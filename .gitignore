@@ -1,0 +1,5 @@
+build/
+resources/.sass-cache/
+resources/sass/.sass-cache/
+phonegap/
+local.properties
