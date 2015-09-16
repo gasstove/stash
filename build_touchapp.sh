@@ -4,7 +4,7 @@
 
 # modify these:
 root="/Users/gomes/code"
-appName="bla"
+appName="xxx"
 
 touchSDK="/Users/gomes/bin/Sencha/touch-2.4.2/"
 sourcecodeDir="/Users/gomes/code/stash/picui_app"
@@ -12,7 +12,7 @@ stashFolder="/Users/gomes/code/stash"
 
 # not these
 projectFolder=$root/$appName
-appNameSpace="com.gasstove."@appName
+appNameSpace="com.gasstove."$appName
 
 
 # sencha version should be 5.1.3.61
@@ -86,16 +86,3 @@ cp $stashFolder/sencha.cfg $projectFolder/.sencha/app/
 # build the app
 cd $projectFolder
 sencha app build native
-
-# git
-# cd $projectFolder
-# git init
-# cp $stashFolder/.gitignore $projectFolder
-# git remote add origin git@github.com:gasstove/$appName.git
-# git add --all
-# git commit -m 'initial'
-# git push origin master
-
-# start sencha web server
-# cd $projectFolder
-# sencha web start

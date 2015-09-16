@@ -4,14 +4,14 @@
 
 # modify these:
 root="/Users/gomes/code"
-appName="testapp"
+appName="bla"
 
 touchSDK="/Users/gomes/bin/Sencha/touch-2.4.2/"
 stashFolder="/Users/gomes/code/stash"
 
 # not these
 projectFolder=$root/$appName
-appNameSpace="com.gasstove."@appName
+appNameSpace="com.gasstove."$appName
 
 # sencha version should be 5.1.3.61
 which sencha
